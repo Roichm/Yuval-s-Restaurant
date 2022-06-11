@@ -4,47 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Order Table</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-        <h1>Yuvali's Restaurant</h1>
+      <h1>Yuvali's Restaurant</h1>
       <nav>
-        <ul>
-          <li>
-            <a href="./index.html"  > Menu</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./index.html">Menu</a>
           </li>
-          <li>
-            <a href="./orderTable.html" >Order <Table></Table></a>
+          <li class="nav-item">
+            <a href="./orderTable.html">Order Table</a>
           </li>
-          <li>
-            <a href="./contactUs.html" >Contact Us</a>
+          <li class="nav-item">
+            <a href="./contactUs.html">Contact Us</a>
           </li>
         </ul>
+      </nav>
     </header>
     <main>
-        <h2>Order Table in Yuval's Restauran</h2>
-        <form  >
-            <div class="container">
-                <label for="selection">Choose people count</label>
-                <select class="input-color">
-                    <option name="selection">One Person</option>
-                    <option name="selection">2 Persons</option>
-                    <option name="selection">3 Persons</option>
-                    <option name="selection">4 Persons</option>
-                    <option name="selection">5 Persons</option>
-                </select>
+      <h2>Order Table in Yuval's Restauran</h2>
+      <form>
+        <div class="container">
+          <label for="selection">Choose people count</label>
+          <select class="input-color">
+            <option name="selection">One Person</option>
+            <option name="selection">2 Persons</option>
+            <option name="selection">3 Persons</option>
+            <option name="selection">4 Persons</option>
+            <option name="selection">5 Persons</option>
+          </select>
 
-                <label for="date">Select Date </label>
-                <input id = "date" type="date" class="input-color">
+          <label for="date">Select Date </label>
+          <input id="date" type="date" class="input-color" />
 
-                <label for="time">Select Time </label>
-                <input id="time" type="time" class="input-color">
+          <label for="time">Select Time </label>
+          <input id="time" type="time" class="input-color" />
 
-                <button>ORDER</button>
-            </div>
-        </form>
+          <button>ORDER</button>
+        </div>
+      </form>
     </main>
     <footer>
       <p>&copy;Yuval's Restaurant</p>

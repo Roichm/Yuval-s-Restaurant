@@ -1,5 +1,9 @@
 h1 {
   color: blue;
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
 h3 {
   font-style: italic;
@@ -12,39 +16,67 @@ img {
   height: 150px;
   margin: 10px;
   border: 2px solid blue;
+  border-radius: 15px;
   transition: 1s;
 }
 img:hover {
   width: 300px;
   height: 300px;
   margin: 20px;
-
 }
 .menu-container {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 .dished-container {
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
 .container {
   display: flex;
   flex-direction: row;
-  
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 600px;
 }
 
-.input-color{
+.input-color {
   transition: 1s;
 }
-.input-color:hover{
-  background-color: gray;
-
+.input-color:hover {
+  background-color: darkgray;
 }
-.box-size{
-  width:40%;
+.box-size {
+  width: 40%;
   height: 100%;
   background-color: beige;
   display: inline-block;
-  
+}
+header {
+  position: sticky;
+  padding-bottom: 50px;
+ 
+}
+body{
+  background-color: beige;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item{
+  transition: 0.5s;
+
+}
+.nav-item:hover{
+  font-size: 2em;
+}
+li {
+  list-style: none;
 }
