@@ -1,0 +1,50 @@
+h1 {
+  color: blue;
+}
+h3 {
+  font-style: italic;
+}
+div {
+  margin: 5px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid blue;
+  transition: 1s;
+}
+img:hover {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+.dished-container {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.input-color{
+  transition: 1s;
+}
+.input-color:hover{
+  background-color: gray;
+
+}
+.box-size{
+  width:40%;
+  height: 100%;
+  background-color: beige;
+  display: inline-block;
+  
+}
