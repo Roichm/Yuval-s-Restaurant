@@ -58,9 +58,8 @@ img:hover {
 header {
   position: sticky;
   padding-bottom: 50px;
- 
 }
-body{
+body {
   background-color: beige;
 }
 .nav-menu {
@@ -69,14 +68,41 @@ body{
   gap: 60px;
   justify-content: center;
   align-items: center;
+  background-color: aqua;
+  position: sticky;
 }
-.nav-item{
+.nav-item {
   transition: 0.5s;
-
 }
-.nav-item:hover{
+.nav-item:hover {
   font-size: 2em;
 }
 li {
   list-style: none;
+}
+@media only screen and (max-width: 550px) {
+  .container {
+    flex-direction: column;
+  }
+  .dished-container {
+    flex-direction: column;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+  }
+  h3{
+    align-self: center;
+  }
+  .box-size >iframe
+  {
+    width: 300px;
+    align-self:stretch;
+    
+  }
+  .box-size{
+    position: relative;
+    right:  50px;
+  }
 }
